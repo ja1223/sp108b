@@ -115,4 +115,8 @@ t6 = b
 t = t6
 (L1)
 ````
+## 思考中間碼的過程
+![](https://github.com/ja1223/sp108b/blob/master/HW/03compiler%2Bif/1.jpg)
+![](https://github.com/ja1223/sp108b/blob/master/HW/03compiler%2Bif/2.jpg)
+![](https://github.com/ja1223/sp108b/blob/master/HW/03compiler%2Bif/3.jpg)
 

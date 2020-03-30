@@ -15,7 +15,7 @@ F = (E) | Number | Id
 ```
 
 ## 執行結果
-
+````
 C:\Users\user\Desktop\系統程式\sp108b\HW\03compiler+if>compiler test/if.c
 a = 3;
 b = 5;
@@ -86,3 +86,4 @@ goto L1
 t6 = b
 t = t6
 (L1)
+````

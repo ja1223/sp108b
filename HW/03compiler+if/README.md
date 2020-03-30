@@ -44,11 +44,11 @@ else t = b;
 ````
 ## 執行方法
 ````
-### 用mingw32-make編譯1個以上的C語言檔案 :
+1. 用mingw32-make編譯1個以上的C語言檔案 :
 
 C:\Users\user\Desktop\系統程式\sp108b\HW\03compiler+if>compiler gcc -std=c99 -O0 lexer.c compiler.c main.c -o compiler
 
-### 執行test資料夾中的if.c :
+2. 執行test資料夾中的if.c :
 
 C:\Users\user\Desktop\系統程式\sp108b\HW\03compiler+if>compiler ./compiler test/if.c
 ````

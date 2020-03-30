@@ -91,8 +91,8 @@ void WHILE() {
 
 // IF = if (E) STMT (else STMT)?
 void IF() {
-   int elseBegin = nextLabel();//產生else開始的標籤
-   int End = nextLabel();//產生結束的標籤
+   int elseBegin = nextLabel();//產生else開始的標記
+   int End = nextLabel();//產生結束的標記
   skip("if");
   skip("(");
   int e = E();//a > b
@@ -102,10 +102,10 @@ void IF() {
    emit("goto L%d\n", End);//跳到結束的標籤
   if (isNext("else")) {
     skip("else");
-     emit("(L%d)\n", elseBegin);//else開始的標籤
+     emit("(L%d)\n", elseBegin);//else開始的標記
     STMT();//t = b
   }
-   emit("(L%d)\n", End);//結束的標籤
+   emit("(L%d)\n", End);//結束的標記
 }
 
 // STMT = WHILE | IF | BLOCK | ASSIGN

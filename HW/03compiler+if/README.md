@@ -13,6 +13,27 @@ ASSIGN = id '=' E;
 E = F (op E)*
 F = (E) | Number | Id
 ```
+## if語法的程式碼
+````
+// IF = if (E) STMT (else STMT)?
+void IF() {
+  int elseBegin = nextLabel();//產生else開始的標記
+  int End = nextLabel();//產生結束的標記
+  skip("if");
+  skip("(");
+  int e = E();//a > b
+  emit("if T%d is false goto L%d\n", e, elseBegin); //如果a不大於b就跳到else開始的標籤
+  skip(")");
+  STMT();//t = a
+  emit("goto L%d\n", End);//跳到結束的標籤
+  if (isNext("else")) {
+    skip("else");
+    emit("(L%d)\n", elseBegin);//else開始的標記
+    STMT();//t = b
+  }
+  emit("(L%d)\n", End);//結束的標記
+}
+````
 ## 測試檔(if.c)
 ````
 a = 3;
@@ -94,3 +115,4 @@ t6 = b
 t = t6
 (L1)
 ````
+

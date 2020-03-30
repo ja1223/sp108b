@@ -13,7 +13,14 @@ ASSIGN = id '=' E;
 E = F (op E)*
 F = (E) | Number | Id
 ```
+## 測試檔(if.c)
+````
+a = 3;
+b = 5;
+if (a > b) t = a;
+else t = b;
 
+````
 ## 執行結果
 ````
 C:\Users\user\Desktop\系統程式\sp108b\HW\03compiler+if>compiler test/if.c

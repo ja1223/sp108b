@@ -115,6 +115,21 @@ t6 = b
 t = t6
 (L1)
 ````
-## 思考中間碼的過程
-![](https://github.com/ja1223/sp108b/blob/master/HW/03compiler%2Bif/1.jpg)
-
+## 中間碼解釋
+````
+t0 = 3
+a = t0                    a = 3
+t1 = 5
+b = t1                    b = 5
+t2 = a
+t3 = b
+t4 = t2 > t3              t4 就是 a > b
+if t4 is false goto L0    如果 a 不大於 b 跳到 L0 的標記( a 大於 b 就繼續執行)
+t5 = a                    
+t = t5                    t = a
+goto L1                   跳到 L1 的標記
+(L0)                      L0 的標記
+t6 =b
+t = t6                    t = b
+(L1)                      L1 的標記
+````

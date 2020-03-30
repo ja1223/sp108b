@@ -122,20 +122,21 @@ if (a > b) t = a;
 else t = b;
 
 ````
-中間碼                    中間碼的邏輯                  測試檔               
+中間碼                    中間碼的邏輯                                  測試檔               
 t0 = 3
-a = t0                      a = 3                        a = 3;
+a = t0                      a = 3                                     a = 3;
 t1 = 5
-b = t1                      b = 5                        b = 5;
+b = t1                      b = 5                                     b = 5;
 t2 = a
 t3 = b
 t4 = t2 > t3                t4 就是 a > b
-if t4 is false goto L0      如果 t4 是錯誤的(a不大於b)跳到 L0 的標記; t4 是正確的(a 大於 b)就繼續執行
+if t4 is false goto L0      如果 t4 是錯誤的(a不大於b)跳到 L0 的標記; 
+                            t4 是正確的(a 大於 b)就繼續執行
 t5 = a                    
-t = t5                      t = a                        if (a > b) t = a;
+t = t5                      t = a                                     if (a > b) t = a;
 goto L1                     跳到 L1 的標記
 (L0)                        L0 的標記                             
 t6 =b
-t = t6                      t = b                        else t = b;          
+t = t6                      t = b                                     else t = b;          
 (L1)                        L1 的標記(程式結束)                              
 ````

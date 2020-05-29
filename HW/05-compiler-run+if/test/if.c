@@ -1,6 +1,9 @@
 a = 3;
 b = 5;
-if (a > b)
+t = 0;
+if (a > b){
   t = a;
-else
+}
+else{
   t = b;
+}

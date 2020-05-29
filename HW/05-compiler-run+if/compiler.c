@@ -139,10 +139,11 @@ void IF() {
   STMT();//t = a
    //emit("goto L%d\n", End);//跳到結束的標籤
    irEmitGoto(End);
+   irEmitLabel(elseBegin);
   if (isNext("else")) {
     skip("else");
      //emit("(L%d)\n", elseBegin);//else開始的標記
-     irEmitLabel(elseBegin);
+     
     STMT();//t = b
   }
    //emit("(L%d)\n", End);//結束的標記

@@ -27,11 +27,11 @@
 
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):
-因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems)、多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
+  因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems)、多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
 ![](0-2圖片網址)
 
 2.微型電腦作業系統(Microcomputer System): 
-微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop)、手持式電腦系統(Handheld) 等。
+  微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop)、手持式電腦系統(Handheld) 等。
 ![](0-3圖片網址)
 3.多處理器作業系統(MultiprocessorSystem): 
 

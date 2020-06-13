@@ -18,7 +18,8 @@
 ### CHAPTER 0導讀
 #### 心得
 ````
-在看完這一章之後，我了解了作業系統的分類，及其再細分的系統有甚麼差異，希望在有這些概念之後我能夠更輕易的理解本書後面的內容。
+在看完這一章之後，我了解了作業系統的分類，及其再細分的系統有甚麼差異，
+希望在有這些概念之後我能夠更輕易的理解本書後面的內容。
 ````
 #### 重點整理
 ````
@@ -32,20 +33,22 @@
 
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):
-  因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems)、多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
-  ![](0-2圖片網址)
+因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems)、
+多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
+![](0-2圖片網址)
 
 2.微型電腦作業系統(Microcomputer System): 
-  微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop)、手持式電腦系統(Handheld) 等。
-  ![](0-3圖片網址)
+微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop)、
+手持式電腦系統(Handheld) 等。
+![](0-3圖片網址)
 3.多處理器作業系統(MultiprocessorSystem): 
 	此作業系統的優點有增加效率、節省成本、增加可靠性
 
-  多處理器系統可類分為對稱多處理器系統、非對稱多處理器系統:
-  1.對稱多處理器系統(Symmetric Multiprocessing):
-  ![](0-4圖片網址)
-  2.非對稱多處理器系統(Asymmetric Multiprocessing): 
-  ![](0-5圖片網址)
+多處理器系統可類分為對稱多處理器系統、非對稱多處理器系統:
+1.對稱多處理器系統(Symmetric Multiprocessing):
+![](0-4圖片網址)
+2.非對稱多處理器系統(Asymmetric Multiprocessing): 
+![](0-5圖片網址)
 
 4.分散式作業系統(Distributed System): 
 	應用網路連接讓放置各處的電腦合作執行指定的工作。
@@ -55,10 +58,10 @@
 	2. 點對點系統(Peer to Peer System 或 P2P):
 	![](0-7圖片網址)
 5.雲端作業系統(CloudSystem):
-  雲端運算將原由本地電腦之運算及儲存的資料，交由雲端網站運算及儲存。
-  雲端運算的基本特性是“運算在雲端(Computing is in the Cloud)"，需滿足:
-  1、多個大規模資料中心(Information Centers)與大量處理器(Processers)
-  2、無憂服務(Non-Worry Service)
+雲端運算將原由本地電腦之運算及儲存的資料，交由雲端網站運算及儲存。
+雲端運算的基本特性是“運算在雲端(Computing is in the Cloud)"，需滿足:
+1、多個大規模資料中心(Information Centers)與大量處理器(Processers)
+2、無憂服務(Non-Worry Service)
 ````
 
 ### CHAPTER 1電腦系統結構

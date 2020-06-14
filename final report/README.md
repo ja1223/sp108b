@@ -29,19 +29,22 @@
 (2)作業系統(Operating System)
 (3)應用程式(Application Program)
 (4)使用者(Users)
-![0-1](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg?raw=true) 
-
+````
+![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg?raw=true) 
+````
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):
 因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems) 
 、多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-2.jpg)
-
+````
 2.微型電腦作業系統(Microcomputer System): 
 微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop) 
 、手持式電腦系統(Handheld) 等。
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-3.jpg)
-
+````
 3.多處理器作業系統(MultiprocessorSystem): 
 	此作業系統的優點有增加效率、節省成本、增加可靠性
 

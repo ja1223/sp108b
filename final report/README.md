@@ -29,7 +29,7 @@
 (2)作業系統(Operating System)
 (3)應用程式(Application Program)
 (4)使用者(Users)
-[](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg) 
+![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg?raw=true) 
 
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):

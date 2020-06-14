@@ -30,7 +30,7 @@
 (3)應用程式(Application Program)
 (4)使用者(Users)
 ````
-![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg?raw=true) 
+![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg) 
 ````
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):
@@ -50,19 +50,24 @@
 
 多處理器系統可類分為對稱多處理器系統、非對稱多處理器系統:
 1.對稱多處理器系統(Symmetric Multiprocessing):
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-4.jpg)
+````
 2.非對稱多處理器系統(Asymmetric Multiprocessing): 
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-5.jpg)
-
+````
 4.分散式作業系統(Distributed System): 
 	應用網路連接讓放置各處的電腦合作執行指定的工作。
 	分散式系統在功能分配上可分為主從系統、點對點系統:
 	1. 主從系統(Server--Client System):
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-6.jpg)
-
+````
 	2. 點對點系統(Peer to Peer System 或 P2P):
+````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-7.jpg)
-
+````
 5.雲端作業系統(CloudSystem):
 雲端運算將原由本地電腦之運算及儲存的資料，交由雲端網站運算及儲存。
 雲端運算的基本特性是“運算在雲端(Computing is in the Cloud)"，需滿足:

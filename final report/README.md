@@ -103,7 +103,7 @@ I/O中斷可分為同步I/O(Synchronous)與非同步I/O(Asynchronous):
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/1-2.jpg)
 
 平常I/O事件由CPU主導執行，如果CPU很忙碌，或是該 I/O事件的優先等級較低，而無法由CPU作立即地執行，作業系統可以“記憶體直接存取方法(Direct Memory Access 或 DMA)"直接將I/O事件對記憶體執行存取。<br>
-但記億體直接存取方法(DMA)仍有其使用條件:<br>
+但記憶體直接存取方法(DMA)仍有其使用條件:<br>
 (1)I/O裝置為高速且傳輸量大的裝置。
 (如果量小速低，偷取少許CPU記憶體，經由CPU主導執行即可)<br>
 (2)確定傳輸的資料無異常。
@@ -121,13 +121,13 @@ CPU直接對主記憶體(Main Memory)隨機存取資料，<br>
 現今電腦性能均為多人多工(Multi-Users/Multi-Jobs): <br>
 (1)多個使用者藉由網路連線一台電腦作執行<br>
 (2)於同一電腦内，多個工作籍由分時方法同時於 CPU執行<br>
-因此難免會發生人為程式的錯誤,而傷害到電腦硬體系統·<br>
+因此難免會發生人為程式的錯誤,而傷害到電腦硬體系統<br>
 
 一台電腦硬體受傷害多是因為人為程式的錯，因此電腦硬體保護就是摒除人為程式的錯誤，而保護的對象為:(1)I/O系統、(2)記憶體、(3)中央處理器(CPU)ㆍ
 
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/1-5.jpg)
 
-一般新型電腦採用“雙模操作法(Dual-ModeOperation)”來摒除人為程式對硬體的傷害。<br>
+一般新型電腦採用“雙模操作法(Dual-Mode Operation)”來摒除人為程式對硬體的傷害。<br>
 雙模是指使用者模式與系統模式(或稱監視模式、優先執行模式)在執行過程中，遇到可能傷及硬體的操作，立即由使用者模式轉交系統模式執行，等該危險操作執行完畢後，再交還使用者模式繼績正常操作。<br>
 
 6.網路架構(Network Structure)<br>
@@ -135,4 +135,71 @@ CPU直接對主記憶體(Main Memory)隨機存取資料，<br>
 
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/1-6.jpg)
 
+### CHAPTER 2
+#### 心得`
+123
 
+#### 重點整理
+
+這一章對作業系統的組成要件、系統服務、系統呼叫、系統程式、應用程式、系統架構、虚擬機器、設計規範、開機系統等作概略的描述，並在後面的章節再做詳細的敘述。<br>
+1.系統組成要件(System Components) <br>
+作業系統可以就功能性分成行程管理、主記憶體管理、檔案管理、輸入輸出管理、輔助記憶體、網路連通管理、保護管理、指令解釋管理。<br>
+
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-1.jpg)
+
+2. 作業系統服務(Operating System Services) <br>
+
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-2.jpg)
+
+3.系統呼叫(System Calls) <br>
+當行程要求系統呼應執行某項工作就稱為系統呼叫，除了低階語言(如組合語言)與少數高階語言外，為了保護系統安全，一般高階語言必須間接作系統呼叫，亦即是在系統監視下由系統導引執行。<br>
+(1)系統呼叫與參數傳遞(System Call and Parameter) <br>
+
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-3.jpg)
+
+(2)系統呼叫時機(Timing for System Call) <br>
+系統呼叫可用於行程控制、檔案操作、裝置操作、資料維護、連線通訊
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-4.jpg)
+
+4. 系統程式(System Programs) <br>
+系統程式提供使用者程式ㅡ個環境(使用者與系統程式間的介面)，可藉系統呼叫或其他方式執行，一般可類分為: <br>
+
+(1)檔案管理(File Management)系統程式:對檔案或目錄執行建立、刪除、複製、重新命名。<br>
+(2)狀況資訊(Status Information)系統程式:提供時間、日期、可用之記憶體空間、使用者人數等系統資料。<br>
+(3)檔案修改(File Modification)系統程式:可更新輔助記憶體如磁碟、磁帶之檔案內容。<br>
+(4)支援電腦語言之程式設計(Language Programming Support) 系統程式:以編譯程式、直譯程式、組合語言等，引導一般高階語言轉換成可執行的目的機器碼。<br>
+(5)語言程式之載入與執行(Program Loading and Execution) 系統程式:一旦語言程式轉換成目的機器碼，即載入主記憶體進入CPU被執行。<br>
+(6)通訊(Communication)系統程式:這類系統程式在行程、使用者、電腦系統間，建立連通管道，使之相互傳遞訊息、相互支援。<br>
+
+5.應用程式 (Application Programs) <br>
+應用程式用來支援解決一般之應用問題，這些程式包括網路瀏覧器、文字處理器、試算表、資料庫、繪圖、統計分析、遊戲等。<br>
+
+6.系統架構(System Structure) <br>
+隨著電腦應用需求之增加，其結構概念也由整體架構(Monolithic System)改向為小單位分割架構(Partition of Small Components System)" <br>
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-5.jpg)
+系統架構可累分為簡易架構、階層架構、微核心、模組架構。<br>
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-6.jpg)
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-7.jpg)
+
+7.虛擬機器(Virtual Machines) <br>
+虛擬機器，IBM首先發展完成，雖仍有些許缺點但有更多的優點，<br>
+其可分為幾個區塊: <br>
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-8.jpg)
+
+8.系統設計與編寫(System Design and Implementation) <br>
+設計觀點從使用者與系統的角度來探討，使用者要求的是方便使用、容易學習、高可信度、安全迅速；系統要求的是容易設計、容易建立、容易維護、容易操作。<br>
+關鍵機制(Mechanisms)通常以低階語言(組合語言)編寫,也有小部份以高階語言(C、C++)編寫，新型作業系就以Java 編寫。<br>
+![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-9.jpg)
+
+10.檢選系統(System Generation) <br>
+系統程式之設計考量是適用於同型電腦、適用於不同的場所、適用於不同的環境。,
+為了滿足不同場所與周遭環境，須考量所有可能的狀況，於使用時再選有用的内容納入作業系統，如此設計的作業系統稱為“檢選系統(SYSGEN)" 。<br>
+SYSGEN 存於碘碟、光碟内，開機後開機程式讀取電腦的環境需求，再從SYSGEN讀取適當內容組成該機的作業系統，其中必須要決定的資料有: <br>
+(1) CPU屬性(如果有多個CPU,每一個的屬性都需讀取) <br>
+(2)記憶體的容量需求<br>
+(3)本機與周邊之配置装置<br>
+(4)最佳化系統選項<br>
+
+11.開機系統(System Boot) <br>
+當電腦開啟電源或重新啟動時，將指令暫存器(IR)載入，同時執行開機程式。開機程式儲存於ROM内，不須任何初始動作開機就執行，亦不受任何病毒的入侵。<br>
+開機程式執行:首先出現對話視窗供使用者勾選需求，然後進入開機步驟，初始所有系統要件，從CPU、暫存器、裝置控制器，到主記億體、作業系統，開啟電腦。<br>

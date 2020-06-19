@@ -8,11 +8,11 @@
 
 本書作者為賈蓉生、許世豪、林金池、賈敏原，於2012/5/25由博碩出版社出版。
 內容針對大專院校作業系統課程教學需求，設計五篇共15章： 
-(1)系統架構(System Structure)，電腦系統結構、作業系統架構；
-(2)行程管理(Process Management)，行程、執行緒、CPU排程、同步並行、死結； 
-(3)儲存管理(Storage Management)，記憶體管理、虛擬記憶體、檔案系統；
-(4)輸入輸出(Input and Output)，輸入輸出系統、大量儲存結構； 
-(5)分散式系統(Distributed System)，分散式系統結構、分散式系統之整合、雲端概念。
+(1)系統架構(System Structure)，電腦系統結構、作業系統架構；  
+(2)行程管理(Process Management)，行程、執行緒、CPU排程、同步並行、死結；   
+(3)儲存管理(Storage Management)，記憶體管理、虛擬記憶體、檔案系統；  
+(4)輸入輸出(Input and Output)，輸入輸出系統、大量儲存結構；   
+(5)分散式系統(Distributed System)，分散式系統結構、分散式系統之整合、雲端概念。  
 
 ## 以下心得以章節作區分:
 ### CHAPTER 0導讀

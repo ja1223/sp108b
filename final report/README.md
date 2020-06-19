@@ -29,35 +29,20 @@
 (2)作業系統(Operating System)
 (3)應用程式(Application Program)
 (4)使用者(Users)
-<<<<<<< HEAD
-=======
-````
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
 ![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg) 
 ````
 代表性的作業系統有 : 
 1.大型電腦作業系統(Mainframe System):
-<<<<<<< HEAD
-因應不同的需求可再類分為批次系統(Batch Systems)、即時系統(Real-Time Systems) 
-、多工系統(Multi-programmed Systems)，與分時系統(Time-Sharing Systems)
-=======
-因應不同的需求可再類分為批次系統(BatchSystems)、即時系統(Real-Time Systems) 
-、多工系統(Multi-programmedSystems)，與分時系統(Time-Sharing Systems)
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
+因應不同的需求可再類分為批次系統(Batch Systems)、即時系統(Real-Time Systems) 、多工系統(Multi-programmed Systems)，與分時系統(Time-Sharing Systems)
 ````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-2.jpg)
 ````
 2.微型電腦作業系統(Microcomputer System): 
-微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop) 
-、手持式電腦系統(Handheld) 等。
+微型電腦分成個人桌上型電腦系統(PC或稱 Desktop)、筆記型電腦系統(Notebook 或稱Laptop) 、手持式電腦系統(Handheld) 等。
 ````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-3.jpg)
 ````
-<<<<<<< HEAD
 3.多處理器作業系統(Multiprocessor System): 
-=======
-3.多處理器作業系統(MultiprocessorSystem): 
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
 	此作業系統的優點有增加效率、節省成本、增加可靠性
 
 多處理器系統可類分為對稱多處理器系統、非對稱多處理器系統:
@@ -70,40 +55,25 @@
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-5.jpg)
 ````
 4.分散式作業系統(Distributed System): 
-<<<<<<< HEAD
 應用網路連接讓放置各處的電腦合作執行指定的工作。
 分散式系統在功能分配上可分為主從系統、點對點系統:
-1. 主從系統(Server--Client System):
+(1) 主從系統(Server--Client System):
 ````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-6.jpg)
 ````
-2. 點對點系統(Peer to Peer System 或 P2P):
+(2) 點對點系統(Peer to Peer System 或 P2P):
 ````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-7.jpg)
 ````
 5.雲端作業系統(Cloud System):
-=======
-	應用網路連接讓放置各處的電腦合作執行指定的工作。
-	分散式系統在功能分配上可分為主從系統、點對點系統:
-	1. 主從系統(Server--Client System):
-````
-![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-6.jpg)
-````
-	2. 點對點系統(Peer to Peer System 或 P2P):
-````
-![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-7.jpg)
-````
-5.雲端作業系統(CloudSystem):
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
 雲端運算將原由本地電腦之運算及儲存的資料，交由雲端網站運算及儲存。
 雲端運算的基本特性是“運算在雲端(Computing is in the Cloud)"，需滿足:
-1、多個大規模資料中心(Information Centers)與大量處理器(Processers)
-2、無憂服務(Non-Worry Service)
+(1)多個大規模資料中心(Information Centers)與大量處理器(Processers)
+(2)無憂服務(Non-Worry Service)
 ````
 
 ### CHAPTER 1電腦系統結構
 #### 心得
-<<<<<<< HEAD
 ````
 這一章對電腦的基本系統架構進行了介紹，讓我對電腦系統結構、計算機結構與作業系統間之互動架構有了一些基礎的概念，希望在經過這一章的解說讓我能夠較容易地去理解幣二章的東西。
 ````
@@ -129,14 +99,6 @@
 當CPU執行輸入輸出時，因CPU的動作快，I/O設備的動作慢，因此無法同步執行使I/O之中斷與其他程序之中斷略為不同。
 
 I/O中斷可分為同步I/O(Synchronous)與非同步I/O(Asynchronous):
-=======
-````
-
-````
-#### 重點整理
-````
-
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
 ````
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/1-2.jpg)
 ````

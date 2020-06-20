@@ -94,7 +94,7 @@
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-7.jpg)
 ````
 5.雲端作業系統(CloudSystem):
->>>>>>> 87ab1bcb835ea38fca7a909781c8af3da5ba6285
+>>87ab1bcb835ea38fca7a909781c8af3da5ba6285
 雲端運算將原由本地電腦之運算及儲存的資料，交由雲端網站運算及儲存。
 雲端運算的基本特性是“運算在雲端(Computing is in the Cloud)"，需滿足:
 1、多個大規模資料中心(Information Centers)與大量處理器(Processers)
@@ -129,7 +129,7 @@
 當CPU執行輸入輸出時，因CPU的動作快，I/O設備的動作慢，因此無法同步執行使I/O之中斷與其他程序之中斷略為不同。
 
 I/O中斷可分為同步I/O(Synchronous)與非同步I/O(Asynchronous):
-=======
+
 ````
 
 ````

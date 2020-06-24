@@ -11,20 +11,20 @@
 
 本書作者為賈蓉生、許世豪、林金池、賈敏原，於2012/5/25由博碩出版社出版。<br>
 內容針對大專院校作業系統課程教學需求，設計五篇共15章：<br>
-  (1)系統架構(System Structure)，電腦系統結構、作業系統架構；<br>
-  (2)行程管理(Process Management)，行程、執行緒、CPU排程、同步並行、死結；<br>
-  (3)儲存管理(Storage Management)，記憶體管理、虛擬記憶體、檔案系統；<br>
-  (4)輸入輸出(Input and Output)，輸入輸出系統、大量儲存結構；<br>
-  (5)分散式系統(Distributed System)，分散式系統結構、分散式系統之整合、雲端概念。<br>
+(1)系統架構(System Structure)，電腦系統結構、作業系統架構；<br>
+(2)行程管理(Process Management)，行程、執行緒、CPU排程、同步並行、死結；<br>
+(3)儲存管理(Storage Management)，記憶體管理、虛擬記憶體、檔案系統；<br>
+(4)輸入輸出(Input and Output)，輸入輸出系統、大量儲存結構；<br>
+(5)分散式系統(Distributed System)，分散式系統結構、分散式系統之整合、雲端概念。<br>
 
 ## 讀書筆記
 ### CHAPTER 0 導讀
 作業系統是一組系統程式，介於使用者與電腦硬體之間，幫助使用者方便使用並監督電腦有效執行。
 一套完整之電腦系統可概分為四組區塊:
-  (1)電腦硬體(Computer Hardware)<br>
-  (2)作業系統(Operating System)<br>
-  (3)應用程式(Application Program)<br>
-  (4)使用者(Users)<br>
+(1)電腦硬體(Computer Hardware)<br>
+(2)作業系統(Operating System)<br>
+(3)應用程式(Application Program)<br>
+(4)使用者(Users)<br>
 ![](https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/0-1.jpg) <br>
 
 代表性的作業系統有 :<br>
@@ -166,7 +166,7 @@ CPU直接對主記憶體(Main Memory)隨機存取資料，<br>
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-6.jpg) <br>
 ![]( https://github.com/ja1223/sp108b/blob/master/final%20report/pictures/2-7.jpg) <br>
 上圖擷取了書中的圖2-7-5並增加自己的整理(框框中的文字) <br>
-
+<br>
 
 7.虛擬機器(Virtual Machines) <br>
 虛擬機器，IBM首先發展完成，雖仍有些許缺點但有更多的優點，<br>

@@ -20,7 +20,7 @@
 ## 讀書筆記
 ### CHAPTER 0 導讀
 作業系統是一組系統程式，介於使用者與電腦硬體之間，幫助使用者方便使用並監督電腦有效執行。
-一套完整之電腦系統可概分為四組區塊:
+一套完整之電腦系統可概分為四組區塊:<br>
 (1)電腦硬體(Computer Hardware)<br>
 (2)作業系統(Operating System)<br>
 (3)應用程式(Application Program)<br>
